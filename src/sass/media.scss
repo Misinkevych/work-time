@@ -1,0 +1,157 @@
+@media (max-width: 576px) {
+
+    .features-list-item:not(:last-child) {
+        margin-bottom: 20px;
+      }
+
+      
+  .site-navigation {
+    margin-bottom: 200px;
+  }
+
+  .site-navigation {
+    position: relative;
+    margin: 0 auto;
+  }
+  .site {
+    position: absolute;
+    display: inline-block;
+  }
+
+  .site-navigation li {
+    width: 145px;
+  }
+
+  .site-logo {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    left: 38px;
+    transform: translate(38px, 50px);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 600px;
+      }
+
+      .page-header {
+      height: 700px;
+      }
+
+
+      .page-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+
+      .site-navigation {
+        display: flex;
+        
+        justify-content: space-between;
+     
+      }
+
+      .heder-title {
+        /* width: 500px; */
+        font-size: 52px;
+        text-align: center;
+        margin-top: 150px;
+
+      }
+
+      .heder-p {
+        /* font-size: 24px; */
+      }
+
+
+      .heder-work {
+        font-size: 24px;
+        margin: 0;
+      }
+
+
+
+
+
+
+      .features-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .features-list-item {
+        flex: 0 0 270px;
+        margin-bottom: 30px;
+      }
+
+
+      .features-list-item:nth-child(n + 3) {
+        margin-bottom: 0;
+      }
+
+
+      .button {
+        width: 193px;
+        height: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+      }
+    
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+
+  .container {
+    width: 1170px;
+  }
+.page-header  {
+  height: 700px;
+}
+
+  .page-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+
+  .site-navigation {
+    flex: 0 0 200px;
+  }
+  .features-list-item {
+    margin-bottom: 0;
+  }
+
+  
+
+
+}

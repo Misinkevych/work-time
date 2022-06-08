@@ -472,31 +472,39 @@ background-repeat: no-repeat;
   border-radius: 50%;
   background-color: #181819;
 }
-// .button-left svg {
-//   position: absolute;
-//   display: block;
-//   width: 5px;
-//   height: 5px;
-// fill: #181819;
-// left: 40px;
-// top: 55px;
-
-// }
-
-// .button-richt svg{
-//   position: absolute;
-//   width: 5px;
-//   height: 5px;
-//   left: 260px;
-//   top: 55px;
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 14px;
+  width: 124px;
+  height: 98px;
+  background-color: rgba(24, 24, 25, 0.2);
  
-// fill: #181819;
+  position: absolute;
+  display: none;
+}
+.features-list-item:hover .overlay{
+  display: block;
+}
 
-// }
 
-
-
-
+.features-p::after{
+  position: absolute;
+  left: 15px;
+  width: 100px;
+  display: block;
+  content: '';
+  height: 1px;
+  background-color: #000000;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out;
+}
+.features-p:hover::after
+{
+  // width: 50px;
+  // color: tomato;
+  transform: scaleX(1);
+}
 .features_title {
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;

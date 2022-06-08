@@ -1,3 +1,27 @@
+// $('#playBtn').on("click",function(){
+//     if($(this).hasClass('play'))
+//      {
+//        $(this).removeClass('play');
+//        $(this).addClass('pause');
+//        audio.play();
+//      }
+//     else
+//      {
+//        $(this).removeClass('pause');
+//        $(this).addClass('play');
+//        audio.pause();
+//      }
+//   });
+  
+//   audio.onended = function() {
+//        $("#playBtn").removeClass('pause');
+//        $("#playBtn").addClass('play');
+//   };
+
+
+
+
+
 /*stylint-disable*/
 let isPlayed=false;
 

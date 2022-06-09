@@ -1,49 +1,173 @@
-@media (min-width: 576px) {
+@media (min-width: 480px)  {
   .container{
     max-width: 480px;
   }
-  .site-logo {
-display: flex;
-justify-content: center;
-align-items: center;
-   
-  }
+
 
   .site-logo svg{
     position: absolute;
     top: -6px;
-    left: 330px;
-    display: block;
-    width: 80px;
-    height: 50px;
-    transition: fill 0,2s linear;
-    fill: #393C49;
+    left: 350px;
+ 
   }
-      
-  // .site-navigation {
-  //   margin-bottom: 200px;
-  // }
+  #menu
+  {
+   
+    width: 400px;
+    height: 300px;
 
-  // .site-navigation {
-  //   position: relative;
-  //   margin: 0 auto;
-  // }
-  // .site {
-  //   position: absolute;
-  //   display: inline-block;
-  // }
+  }  
 
-  // .site-navigation li {
-  //   width: 145px;
-  // }
+
+  #menuToggle .site::after{
+    position: absolute;
+    left: 150px;
+    width: 100px;
+  }
+
+
+
+  #menu-social{
+    width: 400px;
+    height: 50px;
+    margin: 204px 0 0 -70px;
+
+
+  }
+  .icon-social svg{
+    transform: translateX(50px);
+  }
+  #lang-en {
+    width: 400px;
+    height: 40px;
+    margin: -1px 0 0 -70px;
+
+  }
+  #lang-en li{
+    transform: translateX(50px);
+  }
+.baner{
+  margin-top: 120px;
+}
+
+.play {
+  position: absolute;
+  top: 170px;
+  left: 390px;}
 
   features-list [class*="col-"]:not(:last-child) {
     margin-bottom: 30px;
   }
 
+  .features-item{
+    height: 810px;
+  }
+  
+  .features_title{
+
+    transform: translateX(80px);
+  }
+  .features_title::before {
+    position: absolute;
+    left: -25px;
+  }
+  .overlay{
+    // position: absolute;
+    // top: 0;
+    // left: 14px;
+    width: 203px;
+    height: 162px;
+  }
+  
+.features-p{
+
+  font-size: 16px;
+  line-height: 15px;
+ 
+  }
+  .features-text {
+    position: absolute;
+    // width: 300px;
+    // height: 299px;
+    // left: 308px;
+    top: 100px;}
+    .button{
+      position: absolute;
+      top: 650px;
+    
+    
+    
+    }
+
+    .footer-img{
+ 
+      margin: -38px 0 0 440px;
+    }
+      .footer-p{
+      position: absolute;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      left: 100px;
+      top: 5px;
+    
+      }
 
 
 
+
+
+
+
+}
+@media  (max-width: 576px){
+  .container{
+    max-width: 576px;
+  }
+
+  .site-logo svg{
+    position: absolute;
+    top: -6px;
+    left: 430px;
+ 
+  }
+  #menuToggle
+  {
+   
+    position: relative;
+    top: 4px;
+    left: 15px;
+   
+  }
+  
+
+  .baner{
+    margin-top: 75px;
+  }
+  
+  .play {
+    position: absolute;
+    top: 210px;
+    left: 450px;}
+
+
+    .features_title{
+
+      transform: translateX(110px);
+    }
+    .features_titles {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 25px;
+      text-align: center;
+      
+      color: #181819;
+    
+    
+     
+    }
 
 
 

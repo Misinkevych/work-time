@@ -46,6 +46,7 @@ height: auto;
 
 #menuToggle
 {
+  height: auto;
   display: block;
   position: relative;
   top: 4px;
@@ -502,8 +503,6 @@ background-repeat: no-repeat;
   width: 124px;
   height: 98px;
   background-color: rgba(24, 24, 25, 0.2);
- 
-  position: absolute;
   display: none;
 }
 .features-list-item:hover .overlay{

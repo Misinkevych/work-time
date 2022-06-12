@@ -19,6 +19,7 @@ font-family: "Roboto", sans-serif;
 color: #E5E5E5;
 font-size: 14px;
 line-height: 21px;
+overflow-x: hidden
 }
 li{
   list-style-type: none;
@@ -400,6 +401,7 @@ cursor: pointer;
  background-image: url(../images/icon/pley-icon.svg);
 fill: #FFFFFF;
  background-repeat: no-repeat;
+ cursor: pointer;
 }
 
 .play svg{
